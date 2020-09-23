@@ -1,8 +1,16 @@
-CRUD usando Python e framework Flask
-O que é framework Flask?
-Segundo a documentação, o Flask é um micro-framework e baseado na biblioteca WSGI Werkzeug e na biblioteca de Jinja2. Flask tem a flexibilidade da linguagem de programação Python e provê um modelo simples para desenvolvimento web. Uma vez importando no Python, Flask pode ser usado para economizar tempo construindo aplicações web.
+# CRUD-Flask-App
+In this project, we'll build a CRUD (Create, Read, Update, Delete) Articles web app using Flask, a micro-framework for Python.
+Simple application with authentication and CRUD functionality using the Python Flask micro-framework and MySQL
 
-O primeiro passo a se fazer é instalar o pip que é o gerenciador de pacotes do python.
+# Installation
+To use this template, your computer needs:
 
+  * Python 3.7.1
+  * Flask 1.0.2
+  * Flask-WTF
+  * Passlib
+  * MySQL - XAMPP Server
+  * mysql-connector-python-8.0.13 (https://dev.mysql.com/downloads/connector/python/)
 
-
+# Running the app
+python app.py
