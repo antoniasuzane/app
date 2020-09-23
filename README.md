@@ -1,10 +1,10 @@
 # CRUD usando Python e framework Flask
 
-Nosso objetivo é projetar uma API RESTful de back-end, desenvolvida com Python e Flask, para um único recurso -biblioteca
+Nosso objetivo é projetar uma API RESTful de back-end, desenvolvida com Python e Flask, para um único recurso -biblioteca. 
 
-  • A própria API deve seguir os princípios de design RESTful, usando os verbos HTTP básicos: GET, POST, PUT e DELETE.
-  
-  •Também configuraremos um aplicativo front-end com o Vue que consome a API de back-end:
+A própria API deve seguir os princípios de design RESTful, usando os verbos HTTP básicos: GET, POST, PUT e DELETE (CRUD)
+
+Também será configurado um aplicativo front-end com o Vue que consome a API de back-end.
 
 
 # Instalação
@@ -12,33 +12,24 @@ To use this template, your computer needs:
 
   * Vue.js
   * npm
-  * Axios - Para conectar o aplicativo Vuedo lado do cliente ao aplicativo Flask de back-end, podemos usar abibliotecaaxiospara enviar solicitações AJAX
+  * Axios - Para conectar o aplicativo Vuedo lado do cliente ao aplicativo Flask de back-end.
   * Python 3.7.1
   * Flask 1.0.2
   * Flask-WTF
-  * Passlib
-  * MySQL - XAMPP Server
-  * mysql-connector-python-8.0.13 (https://dev.mysql.com/downloads/connector/python/)
+  * SQLite
 
-# Running the app
-python app.py
+# Usar o sistema
 
-CRUD usando Python e framework Flask
-O que é framework Flask?
-Segundo a documentação, o Flask é um micro-framework e baseado na biblioteca WSGI Werkzeug e na biblioteca de Jinja2. Flask tem a flexibilidade da linguagem de programação Python e provê um modelo simples para desenvolvimento web. Uma vez importando no Python, Flask pode ser usado para economizar tempo construindo aplicações web.
+- Baixar o código como Zip e descompactar
 
-O primeiro passo a se fazer é instalar o pip que é o gerenciador de pacotes do python.
+# Para o frontend
 
+- Abrir o terminal e acessar a pasta descompactada: app-master/frontend
+- executar o comando npm run serve
 
-pip install Flask
+# Para o backend
 
-Depois é necessário ativar o virtualenv, para isso acesse o diretório cd /crud e depois digite source bin/active.
+- Abrir o terminal e acessar a pasta descompactada: app-master/backend\ambientevirtual\Scripts\activate.bat
+- retonar para app-master/backend e executar python app.py
 
-Agora, acesse o diretório pelo comando cd /projeto.
-
-Por fim, digite o comando em seu terminal:
-
-
-python app.py
-
-Pronto! A aplicação Flask já está rodando. Abra seu navegador e digite localhost:5000.
+Pronto! A aplicação Flask já está rodando. Abra seu navegador e digite localhost:8080
