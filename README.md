@@ -1,10 +1,18 @@
-# CRUD-Flask-App
-In this project, we'll build a CRUD (Create, Read, Update, Delete) Articles web app using Flask, a micro-framework for Python.
-Simple application with authentication and CRUD functionality using the Python Flask micro-framework and MySQL
+# CRUD usando Python e framework Flask
 
-# Installation
+Nosso objetivo é projetar uma API RESTful de back-end, desenvolvida com Python e Flask, para um único recurso -biblioteca
+
+  • A própria API deve seguir os princípios de design RESTful, usando os verbos HTTP básicos: GET, POST, PUT e DELETE.
+  
+  •Também configuraremos um aplicativo front-end com o Vue que consome a API de back-end:
+
+
+# Instalação
 To use this template, your computer needs:
 
+  * Vue.js
+  * npm
+  * Axios - Para conectar o aplicativo Vuedo lado do cliente ao aplicativo Flask de back-end, podemos usar abibliotecaaxiospara enviar solicitações AJAX
   * Python 3.7.1
   * Flask 1.0.2
   * Flask-WTF
@@ -14,3 +22,23 @@ To use this template, your computer needs:
 
 # Running the app
 python app.py
+
+CRUD usando Python e framework Flask
+O que é framework Flask?
+Segundo a documentação, o Flask é um micro-framework e baseado na biblioteca WSGI Werkzeug e na biblioteca de Jinja2. Flask tem a flexibilidade da linguagem de programação Python e provê um modelo simples para desenvolvimento web. Uma vez importando no Python, Flask pode ser usado para economizar tempo construindo aplicações web.
+
+O primeiro passo a se fazer é instalar o pip que é o gerenciador de pacotes do python.
+
+
+pip install Flask
+
+Depois é necessário ativar o virtualenv, para isso acesse o diretório cd /crud e depois digite source bin/active.
+
+Agora, acesse o diretório pelo comando cd /projeto.
+
+Por fim, digite o comando em seu terminal:
+
+
+python app.py
+
+Pronto! A aplicação Flask já está rodando. Abra seu navegador e digite localhost:5000.
