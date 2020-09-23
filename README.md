@@ -1,3 +1,5 @@
+Alunos: Antônia Suzane e Handerson de Souza
+
 # CRUD usando Python e framework Flask
 
 Nosso objetivo é projetar uma API RESTful de back-end, desenvolvida com Python e Flask, para um único recurso -biblioteca. 
